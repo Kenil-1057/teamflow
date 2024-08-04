@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+.hero{
+    position: relative;
+    overflow: hidden;
+    background-color: #FAFAFF;
+}
+
+.hero::before{
+    content: '';
+    background-color: #4B4AEF;
+    transform: skewX(-15deg);
+    transform-origin: top;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.tools{
+    box-shadow: 2px 16px 40px 0px rgba(64, 90, 142, 0.16);
+}
+.customer_testimonial{
+    box-shadow: 0px 6px 30px 0px rgba(45, 44, 85, 0.1);
+}
+
+.input_box_shadow{
+    box-shadow: 0 10px 20px 0 rgba(54, 58, 120, 0.1);
+}
+.testimonial{
+    position: relative;
+    z-index: 1;
+}
+
+.testinmoinal_img_box{
+    position: relative;
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin-top: -70px;
+    margin-inline: auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.testinmoinal_img_box img{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}   
+
+.icon{
+    width: 70px;
+}
